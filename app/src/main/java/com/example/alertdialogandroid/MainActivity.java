@@ -31,5 +31,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
        alertDialog.show();
+
+       //Two Button Alert Dialog
+        AlertDialog.Builder deleteDialog = new AlertDialog.Builder(MainActivity.this);
+        deleteDialog.setTitle("Want To Delete?");
+        deleteDialog.setIcon(R.drawable.ic_baseline_delete_24);
+        deleteDialog.setMessage("Are You Sure You Want To Delete?");
+
+        deleteDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //Write Delete Code;
+                Toast.makeText(MainActivity.this, "Item Deleted", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        deleteDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                //Write Code
+                Toast.makeText(MainActivity.this, "Item Not Deleted", Toast.LENGTH_SHORT).show();
+            }
+        });
+        deleteDialog.show();
     }
 }

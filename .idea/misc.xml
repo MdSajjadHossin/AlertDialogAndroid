@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/AndroidProjects/AlertDialogAndroid/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1" />
         <entry key="..\:/Android/AndroidProjects/AlertDialogAndroid/app/src/main/res/drawable/ic_baseline_perm_device_information_24.xml" value="0.1" />
         <entry key="..\:/Android/AndroidProjects/AlertDialogAndroid/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
       </map>
